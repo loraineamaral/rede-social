@@ -56,26 +56,25 @@ $(document).ready(function () {
 
   function createPost(text, key, privacyType, hour, likePost) {
     $("#post-feed").prepend(
-      `<li class="post-style" data-post-id="${key}">
-
+      `<li class="list-unstyled" data-post-id="${key}">
       <div class="d-flex flex-row justify-content-between mr-5  p-3 border border-secondary rounded">
   
         <div class="d-flex flex-column align-item-end">
           <p data-id-post="${key}" class="post-text">${text}</p>
-          <span class="privacy-type">${privacyType}</span>
-          <span class="privacy-type">${hour}</span>
+          <span class="text-red text-footer">${privacyType}</span>
+          <span class="text-red text-footer">${hour}</span>
         </div>
   
         <div class="btns d-flex flex-column align-items-start">
-          <button class="btn-del ml-auto" id="btn-del" data-del-id="${key}" data-toggle="modal" data-target=".display-modal"><i
+          <button class="text-red bg-transparent border-0 ml-auto" id="btn-del" data-del-id="${key}" data-toggle="modal" data-target=".display-modal"><i
               class="fas fa-trash-alt"></i></button>
-          <button class="btn-edit ml-auto" id="btn-edit" data-edit-id="${key}"><i class="fas fa-edit"></i></button>
-          <button class="btn-save border border-danger rounded d-none" data-save-id="${key}">Salvar</button>
+          <button class="btn-edit bg-transparent border-0 text-red ml-auto" id="btn-edit" data-edit-id="${key}"><i class="fas fa-edit"></i></button>
+          <button class="btn-save bg-red text-white mt-2 border-0 text-red border border-danger rounded d-none" data-save-id="${key}">Salvar</button>
         </div>
       </div>
         <div class="mb-3 mt-1">
-          <button class="fas fa-heart like-icon" type="button" data-like-id="${key}">
-            <span class="badge text-style" data-span-id="${key}">${likePost}</span></button>
+          <button class="fas fa-heart text-red bg-transparent border-0 text-small" type="button" data-like-id="${key}">
+            <span class="badge font-style" data-span-id="${key}">${likePost}</span></button>
   
         </div>
   
@@ -201,5 +200,3 @@ function getTime() {
   
   return showDate;
 }
-  
-

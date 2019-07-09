@@ -1,103 +1,61 @@
-.post-style{
-  list-style: none;
- }
- 
-.nav-bar{
+.bg-red{
     background-color: #b21c1c;
 }   
     
 .lateral-left{
   background-image: url(../assets/images/aside-left.png);
   background-size: cover;
-  background-repeat: repeat-y;
- 
- }
+  background-repeat: repeat-y; 
+}
 
 .lateral-right{
   background-image: url(../assets/images/aside-right.png);
   background-size: cover;
-  background-repeat: round;
+  background-repeat: repeat-y;
+}
 
- }
-
-.nav-elem{
-  background-color: #b21c1c;
-  color: white;
+.font-style{
   font-family: "Viga";
+} 
+
+.text-white{
+  color: white;
+}
+
+.text-red{
+  color: #b21c1c;
+}
+
+.text-small{
+  font-size: 15px;
+}
+
+.text-footer{
+  font-size: 10px;
 }
 
 .img-nav{
-  width: 30px;
-}
-
-.user-photo{
-  width: 80px;
-  height: 80px;  
+  width: 5%;
 }
 
 .iconedit-toggler {
   border-color: rgb(255,255,255)!important;
 }
+
 .iconedit-icon {
 background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E")!important;
 }
 
-.text-style{
-  font-family: "Viga";
-  font-size: 15px;
-}
-.post-feed{
-  font-family: "Viga";
+.feed-height{
   height: 100vh;
-  
 }
-.text-input{
-  height: 20vh;
+
+.input-resize{
   resize: none;
-   }
-
-  @media (max-width: 800px) {
-
-.lateral-left{
-  display: none;
-}
-.lateral-right{
-  display: none;
-}
-
-.select-div{
-  flex-direction: column!important;
-}
-
-}
-
-.btn-del{
-  background-color: transparent;
-  border: none;
-  color: #b21c1c
-}
-
-.btn-edit{
-  background-color: transparent;
-  border: none;
-  color: #b21c1c
-}
-
-.btn-save{
-  background-color: #b21c1c;
-  border: none;
-  color: white;
-  border-color: #b21c1c;
-  font-size: 15px;
 }
 
 .post-area{
   resize: none;
-}
-
-.privacy-type{
-  font-size: 10px;
-  color: #b21c1c;
 }
 
 .scroll-edit  {
@@ -105,28 +63,27 @@ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
 .scroll-edit ::-webkit-scrollbar { 
   display: none;
-}
-
-.filter-button{
-  background-color: #b21c1c;
-  font-style: "Viga"
-}
-
-.like-icon{
-  color: #b21c1c;
-  border: transparent;
-  background: transparent;
-  font-size: 10x;
-  }
-
-.btn-delete{
-  background-color: #b21c1c
-
 }
 
 .btn-post:hover {
   background-color: #b21c1c;
   border: 0;
+}
+
+@media (max-width: 800px) {
+
+.lateral-left{
+display: none;
+}
+.lateral-right{
+display: none;
+}
+
+.select-div{
+flex-direction: column!important;
+}
+
 }
