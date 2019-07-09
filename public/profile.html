@@ -19,10 +19,10 @@
 </head>
 
 <body>
-  <nav class="row nav-bar">
+  <nav class="row bg-red">
     <section class="col-12">
-      <nav class="navbar navbar-expand-lg navbar-light nav-elem">
-        <a class="navbar-brand text-white nav-elem" href="#"> <img src="assets/images/logo fork branco.png"
+      <nav class="navbar navbar-expand-lg navbar-light font-style bg-red">
+        <a class="navbar-brand text-white font-style bg-red" href="#"> <img src="assets/images/logo fork branco.png"
             class="img-nav mr-2" alt="logo nav">FORK RANK</a>
         <button class="navbar-toggler iconedit-toggler" type="button" data-toggle="collapse"
           data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
@@ -30,18 +30,18 @@
           <span class="navbar-toggler-icon iconedit-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav d-flex align-items-center flex-fill">
+          <ul class="navbar-nav d-flex justify-content-start flex-fill">
             <li class="nav-item active">
-              <a class="nav-link nav-elem text-white" href="#">Perfil<span class="sr-only">(current)</span></a>
+              <a class="nav-link font-style bg-red text-white" href="#">Perfil<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item ">
-              <a class="nav-link nav-elem text-white" href="#">Restaurantes</a>
+              <a class="nav-link font-style bg-red text-white" href="#">Restaurantes</a>
             </li>
-            <li class="nav-item ">
-              <a class="nav-link nav-elem text-white" href="#">Recomendações</a>
+            <li class="nav-item">
+              <a class="nav-link font-style bg-red text-white" href="#">Recomendações</a>
             </li>
             <li class="btn-exit ml-auto">
-              <button id="exit" class="btn-exit nav-elem border rounded p-2">
+              <button id="exit" class="btn-exit font-style bg-red border rounded p-2">
                 <img src="assets/images/1333_door-512.png" alt="logout-btn" width="20px" height="20px">
               </button>
             </li>
@@ -55,24 +55,24 @@
       <aside class="col-md-3 lateral-bar lateral-left"></aside>
       <div class="col-md-6 mt-5 main-screen scroll-edit">
         <div class=" d-flex flex-row justify-content-around mx-4 mb-5">
-          <img src="assets/images/images.jpg" alt="" class="rounded-circle user-photo mx-3">
+          <img src="assets/images/images.jpg" alt="" class="rounded-circle w-25 mx-3">
           <div class="col-md-9 d-flex flex-fill flex-wrap">
             <div class="input-group mb-3">
-              <textarea id="post-text" autofocus="true" type="text" class="form-control rounded text-style text-input"
+              <textarea id="post-text" autofocus="true" type="text" class="form-control rounded font-style text-small h-100 input-resize"
                 placeholder="Como está sua fome hoje?" aria-label="Username" aria-describedby="basic-addon1"></textarea>
             </div>
             <div class="select-div d-flex flex-row ml-auto">
-              <select name="posttype" id="privacy-menu" class="custom-select text-style mb-2">
-                <option class="text-style" value="1">Público</option>
-                <option class="text-style" value="2">Privado</option>
+              <select name="posttype" id="privacy-menu" class="custom-select font-style text-small mb-2">
+                <option class="font-style text-small" value="1">Público</option>
+                <option class="font-style text-small" value="2">Privado</option>
               </select>
-              <button type="submit" id="post-button" class="btn btn-secondary text-style mx-2 btn-post">Publicar</button>
+              <button type="submit" id="post-button" class="btn btn-secondary font-style text-small mx-2 btn-post">Publicar</button>
             </div>
           </div>
         </div>
         <div class="col-md-6 ml-4">
           <p>
-            <button class="btn btn-secondary filter-button border-0 text-style" type="button" data-toggle="collapse"
+            <button class="btn btn-secondary bg-red text-style border-0 font-style text-small" type="button" data-toggle="collapse"
               data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
               Filtrar
             </button>
@@ -80,18 +80,18 @@
           <div class="collapse" id="collapseExample">
             <div class="card card-body flex-column p-2 mb-3 border-0">
               <div>
-                <p class="text-style">Mostrar postagens:</p>
+                <p class="font-style text-small">Mostrar postagens:</p>
               </div>
-              <div class="d-flex flex-row text-style">
+              <div class="d-flex flex-row font-style text-small">
                 <button id="private" type="button"
-                  class="btn btn-secondary m-2 filter-button">Privadas</button>
-                <button id="public" type="button" class="btn btn-secondary m-2 border-0 filter-button">Públicas</button>
-                <button id="allposts" type="button" class="btn btn-secondary m-2 border-0 filter-button">Todas</button>
+                  class="btn btn-secondary m-2 bg-red text-style">Privadas</button>
+                <button id="public" type="button" class="btn btn-secondary m-2 border-0 bg-red text-style">Públicas</button>
+                <button id="allposts" type="button" class="btn btn-secondary m-2 border-0 bg-red text-style">Todas</button>
               </div>
             </div>
           </div>
         </div>
-        <ul id="post-feed" class="post-feed">
+        <ul id="post-feed" class="font-style feed-height">
         </ul>
       </div>
       <aside class="col-md-3 lateral-right"></aside>
@@ -102,17 +102,17 @@
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title text-style">Apagar Post</h5>
+          <h5 class="modal-title font-style text-small">Apagar Post</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
-        <div class="modal-body text-style">
+        <div class="modal-body font-style text-small">
           Tem certeza que deseja apagar?
         </div>
-        <div class="modal-footer text-style">
-          <button type="button" class="btn btn-secondary text-style" data-dismiss="modal">Cancelar</button>
-          <button type="button" data-dismiss="modal" class="btn btn-danger btn-delete text-style border-0" id= "delete-btn">Apagar</button>
+        <div class="modal-footer font-style text-small">
+          <button type="button" class="btn btn-secondary font-style text-small" data-dismiss="modal">Cancelar</button>
+          <button type="button" data-dismiss="modal" class="btn btn-danger font-style bg-red text-small border-0" id= "delete-btn">Apagar</button>
         </div>
       </div>
     </div>

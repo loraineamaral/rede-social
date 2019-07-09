@@ -13,40 +13,40 @@
     <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase-database.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Viga" rel="stylesheet">
     <script src="scripts/config.js"> </script>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/login.css">
 </head>
 
 <body>
     <main class="container-fluid login-section">
         <section class="row justify-content-center">
-            <div class="col-xs-12 mt-3 mb-3 mx-5 top-red d-flex justify-content-center">
-                <img src="assets/images/logo branco.png" alt="logo" class="img-logo">
+            <div class="col-12 mt-3 mb-3 mx-5 top-red d-flex justify-content-center">
+                <img src="assets/images/logo branco.png" alt="logo" class="mb-3 img-size">
             </div>
         </section>
-        <section class="row justify-content-center">
+        <section class="row justify-content-center mt-3">
             <div class="col-xs-12 m-3">
                 <form>
-                    <input type="email" id="email" placeholder="Digite seu email" class="form-control form-login mb-4"
+                    <input type="email" id="email" placeholder="Digite seu email" class="form-control font-style border-0 mb-4"
                         autofocus>
-                    <input type="password" id="password" placeholder="Digite sua senha" class="form-control form-login"
+                    <input type="password" id="password" placeholder="Digite sua senha" class="form-control font-style border-0"
                         required>
-                    <button id="btn-login" type="button" class="btn btn-danger btn-block login-btn my-3">Entrar</button>
+                    <button id="btn-login" type="button" class="btn btn-danger btn-block font-style my-3">Entrar</button>
                 </form>
-                <div class="logins d-flex justify-content-center mt-4">
-                    <button id="login-gmail" class="facemail-btn">
+                <div class="logins d-flex justify-content-center mt-5">
+                    <button id="login-gmail" class="border-0 bg-transparent">
                         <img src="assets/images/gmail-logo.png" alt="gmail-logo" width="40px" height="30px"
-                            class="login-img"></button>
-                    <button id="login-facebook" class="facemail-btn" onclick="loginFacebook()">
+                            class="border-0"></button>
+                    <button id="login-facebook" class="border-0 bg-transparent" onclick="loginFacebook()">
                         <img src="assets/images/face-logo.png" alt="face-logo" width="40px" height="40px"
-                            class="login-img"></button>
+                            class="border-0"></button>
                 </div>
-                <button type="new-user" class="subscribe-btn m-5" data-toggle="modal" data-target="#exampleModal">
+                <button type="new-user" class="subscribe-btn bg-grey m-5 brder-rounded border-0 font-style" data-toggle="modal" data-target="#exampleModal">
                     Não tem cadastro? Clique aqui!
                 </button>
             </div>
         </section>
     </main>
-    <div class="modal fade modalteste" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    <div class="modal fade bg-grey" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -85,10 +85,12 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-    <script type="text/javascript" src="scripts/script.js"></script>
+    <script type="text/javascript" src="scripts/login.js"></script>
     <script type="text/javascript" src="scripts/profile.js"></script>
+    <script type="text/javascript" src="scripts/createPost.js"></script>
     <script type="text/javascript" src="scripts/register.js"></script>
 
 
 </body>
+
 </html>
