@@ -57,7 +57,7 @@ $(document).ready(function () {
   function createPost(text, key, privacyType, hour, likePost) {
     $("#post-feed").prepend(
       `<li class="list-unstyled" data-post-id="${key}">
-      <div class="d-flex flex-row justify-content-between mr-5  p-3 border border-secondary rounded">
+      <div class="d-flex flex-row justify-content-between mr-5 p-3 border border-secondary rounded">
   
         <div class="d-flex flex-column align-item-end">
           <p data-id-post="${key}" class="post-text">${text}</p>
