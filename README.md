@@ -10,7 +10,7 @@ Pensando nessa demanda criamos uma rede social chamada Fork Rank, ela possui ele
 
 A nossa rede social é voltada para usuários que são ativos na rede sociais, apreciam culinária, gostam de expressar suas opiniões e conhecer pessoas.   
 
-## Criamos 2 personas:
+## Personas:
 
 ![](public/assets/images/personas.png)
 
@@ -26,7 +26,22 @@ Através do protótipo de media fidelidade no Marvel efetuamos testes de usabili
 
 ![Imagem do protótipo](public/assets/images/marvel.png) 
 
-### Organizacão
+## Observações
 
-Nos organizamos através do [Trello](https://trello.com/b/bJYzc6QJ/rede-social) focando primeiro em deixar as funcionalidades OK e em seguida criamos o Layout pensando em mobile first.
+Este projeto foi desenvolvido em trios. Neste projeto participaram Fabiane Albuquerque, Jenyffer Sila e Loraine Amaral.
 
+Nos organizamos através do [Trello](https://trello.com/b/bJYzc6QJ/rede-social) focando primeiro em deixar realzar as funcionalidades e em seguida criamos o Layout pensando em mobile first.
+
+O projeto foi desenvolvido em HTML, JQuery, Bootstrap e Firebase.
+
+## Resultado Final
+
+Um dos requisitos do desafio, era construir um layout responsivo, o que podemos ver nas imagens abaixo:
+
+### Layout web:
+
+![Web- print da tela de login](public/assets/images/print-web.png) ![Web- print da tela do feed](public/assets/images/print-web-2.png) 
+
+### Layout mobile
+
+![Mobile- print da tela de login](public/assets/images/print-mobile.jpg) ![Mobile- print da tela do feed](public/assets/images/print-mobile-2.jpg)
