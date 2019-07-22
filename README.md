@@ -36,6 +36,15 @@ O projeto foi desenvolvido em HTML, JQuery, Bootstrap e Firebase.
 
 ## Resultado Final
 
+**Para acessar o site, use o link: https://fork-rank.firebaseapp.com/**
+
+ Para fazer login, você pode usar os seguintes dados:
+
+ **Usuário: teste@teste.com**
+ 
+ **Senha: 123456**
+
+
 Um dos requisitos do desafio, era construir um layout responsivo, o que podemos ver nas imagens abaixo:
 
 ### Layout web:
