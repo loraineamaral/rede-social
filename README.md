@@ -44,4 +44,4 @@ Um dos requisitos do desafio, era construir um layout responsivo, o que podemos 
 
 ### Layout mobile
 
-![Mobile- print da tela de login](public/assets/images/print-mobile.jpg) ![Mobile- print da tela do feed](public/assets/images/print-mobile-2.jpg)
+![Mobile- print da tela de login](public/assets/images/fk-screen-mobile.png) 
